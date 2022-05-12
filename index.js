@@ -15,5 +15,7 @@ submitBtn.addEventListener('click', () => {
     } else {
       console.error(resp.status + ": " + resp.statusText)
     }
-  });
+  }).catch(err => {
+      console.error(err);
+  })
 });
