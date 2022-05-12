@@ -1,0 +1,11 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+body {
+  font-family: "Gotham", Avenir, Helvetica, Arial;
+  background-color: #d8d8d8;
+  color: black;
+}
+
+i {
+  text-align: right;
+}
